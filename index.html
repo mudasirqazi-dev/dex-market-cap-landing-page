@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Dex Market Cap</title>
+  </head>
+  <body>
+    <!-- Hero Section Start -->
+    <main class="hero">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand logo-container" href="/">
+            <img
+              src="./assets/images/logo.svg"
+              alt="logo-img"
+              class="logo-img"
+            />
+            DexMarketCap
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Lorem
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Lorem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lorem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lorem</a>
+              </li>
+            </ul>
+            <div class="nav-btns">
+              <button class="btn signin-btn" type="submit">Sign In</button>
+              <button class="btn signup-btn" type="submit">SignUp</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-container my-5 py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="
+                col-lg-6 col-md-12 col-sm-12
+                d-flex
+                justify-content-center
+                flex-column
+              "
+            >
+              <h1 class="title mb-4">Lorem Ipsum Dolor Sit Amet Adipscing</h1>
+              <p class="description mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
+                pulvinar sem ante feugiat suscipit aenean gravida quis
+                tincidunt.
+              </p>
+
+              <div class="input-container mb-5">
+                <div class="input-inner-container">
+                  <img src="./assets/images/email-icon.svg" alt="" />
+                  <input
+                    type="text"
+                    name="email-input"
+                    class="email-input"
+                    placeholder="Enter your email address"
+                  />
+                </div>
+                <button class="btn signup-btn" type="submit">
+                  Get Started
+                </button>
+              </div>
+
+              <div class="logos-container">
+                <img src="./assets/images/coinmarketcap.svg" alt="" />
+                <img src="./assets/images/bitcoin.svg" alt="" />
+                <img src="./assets/images/coinbase.svg" alt="" />
+                <img src="./assets/images/binance.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 hero-right-container">
+              <img
+                src="./assets/images/hero-right.jpeg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Hero Section End -->
+
+    <!-- Table Start -->
+    <section class="table-section my-5 py-5">
+      <div class="container">
+        <h2 class="text-center table-top-title">Current Market is Bearing</h2>
+        <p class="text-center table-top-description mb-5">
+          Track your decisions coin, take notes <br />
+          and analyze your performance.
+        </p>
+
+        <table id="example" class="table p-3 my-3" style="width: 100%">
+          <thead>
+            <tr>
+              <th class="table-heading-style">#</th>
+              <th class="table-heading-style">Name</th>
+              <th class="table-heading-style">Price</th>
+              <th class="table-heading-style">24%</th>
+              <th class="table-heading-style">7D%</th>
+              <th class="table-heading-style">Market Cap</th>
+              <th class="table-heading-style">Volume (24h)</th>
+              <th class="table-heading-style">Last 7 Days</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="id">1</td>
+              <td class="name-td">
+                <img
+                  src="./assets/images/Cryptocurrency-1.svg"
+                  class="img-fluid"
+                  alt=""
+                /><span class="currency-name">Bitcoin</span>
+                <span class="currency-short">BTC</span>
+              </td>
+              <td class="price-td">$24,994.12</td>
+              <td class="24%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="7D%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="price-td">$87,332,938,123</td>
+              <td class="price-td">$87,332,938,123</td>
+              <td><img src="./assets/images/chart-red.svg" alt="" /></td>
+            </tr>
+            <tr>
+              <td class="id">1</td>
+              <td class="name-td">
+                <img
+                  src="./assets/images/Cryptocurrency-2.svg"
+                  class="img-fluid"
+                  alt=""
+                /><span class="currency-name">Tether</span>
+                <span class="currency-short">BTC</span>
+              </td>
+              <td class="price-td">$24,994.12</td>
+              <td class="24%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="7D%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="price-td">$87,332,938,123</td>
+              <td class="price-td">$87,332,938,123</td>
+              <td><img src="./assets/images/green-chart.svg" alt="" /></td>
+            </tr>
+            <tr>
+              <td class="id">1</td>
+              <td class="name-td">
+                <img
+                  src="./assets/images/Cryptocurrency-3.svg"
+                  class="img-fluid"
+                  alt=""
+                /><span class="currency-name">Dash</span>
+                <span class="currency-short">BTC</span>
+              </td>
+              <td class="price-td">$24,994.12</td>
+              <td class="24%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="7D%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="price-td">$87,332,938,123</td>
+              <td class="price-td">$87,332,938,123</td>
+              <td><img src="./assets/images/chart-red.svg" alt="" /></td>
+            </tr>
+            <tr>
+              <td class="id">1</td>
+              <td class="name-td">
+                <img
+                  src="./assets/images/Cryptocurrency.svg"
+                  class="img-fluid"
+                  alt=""
+                /><span class="currency-name">Digibyte</span>
+                <span class="currency-short">BTC</span>
+              </td>
+              <td class="price-td">$24,994.12</td>
+              <td class="24%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="7D%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="price-td">$87,332,938,123</td>
+              <td class="price-td">$87,332,938,123</td>
+              <td><img src="./assets/images/green-chart.svg" alt="" /></td>
+            </tr>
+            <tr>
+              <td class="id">1</td>
+              <td class="name-td">
+                <img
+                  src="./assets/images/Cryptocurrency-1.svg"
+                  class="img-fluid"
+                  alt=""
+                /><span class="currency-name">Ethereum</span>
+                <span class="currency-short">BTC</span>
+              </td>
+              <td class="price-td">$24,994.12</td>
+              <td class="24%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="7D%-td">
+                <p class="price-red-value mb0">
+                  <img src="./assets/images/price-red-icon.svg" alt="" />
+                  2.43%
+                </p>
+              </td>
+              <td class="price-td">$87,332,938,123</td>
+              <td class="price-td">$87,332,938,123</td>
+              <td><img src="./assets/images/chart-red.svg" alt="" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Table End -->
+
+    <!-- Slider Section Start -->
+    <section class="slider-section-container my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h2 class="slider-title text-md-center">
+              Lorem Ipsum Dolor Sit Amet Adipscing
+            </h2>
+          </div>
+          <div class="col-md-6 col-12 d-flex align-items-center">
+            <p class="slider-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+              vivamus et tempus, nunc, urna felis, est feugiat blandit. Tortor
+              ullamcorper molestie lacus.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card p-2" style="width: 100%">
+              <div class="card-head">
+                <div class="card-head-first">
+                  <img
+                    src="./assets/images/Cryptocurrency-2.svg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <h4>Ethereum</h4>
+                </div>
+                <img
+                  src="./assets/images/slider-chart.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div class="card-body mt-4">
+                <div class="price-container-left">
+                  <p class="title">Price Now</p>
+                  <p class="price-value">USD 8,442.12</p>
+                </div>
+                <div class="price-container-right">
+                  <p class="title">Price Change (24h)</p>
+                  <p class="price-red-value">
+                    <img
+                      src="./assets/images/price-red-icon.svg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    2.43%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card p-2" style="width: 100%">
+              <div class="card-head">
+                <div class="card-head-first">
+                  <img
+                    src="./assets/images/Cryptocurrency-1.svg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <h4>Bitcoin</h4>
+                </div>
+                <img
+                  src="./assets/images/slider-chart.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div class="card-body mt-4">
+                <div class="price-container-left">
+                  <p class="title">Price Now</p>
+                  <p class="price-value">USD 8,442.12</p>
+                </div>
+                <div class="price-container-right">
+                  <p class="title">Price Change (24h)</p>
+                  <p class="price-red-value">
+                    <img
+                      src="./assets/images/price-red-icon.svg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    2.43%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card p-2" style="width: 100%">
+              <div class="card-head">
+                <div class="card-head-first">
+                  <img
+                    src="./assets/images/Cryptocurrency.svg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <h4>Digibite</h4>
+                </div>
+                <img
+                  src="./assets/images/slider-chart.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div class="card-body mt-4">
+                <div class="price-container-left">
+                  <p class="title">Price Now</p>
+                  <p class="price-value">USD 8,442.12</p>
+                </div>
+                <div class="price-container-right">
+                  <p class="title">Price Change (24h)</p>
+                  <p class="price-red-value">
+                    <img
+                      src="./assets/images/price-red-icon.svg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    2.43%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="card p-2" style="width: 100%">
+              <div class="card-head">
+                <div class="card-head-first">
+                  <img
+                    src="./assets/images/Cryptocurrency-3.svg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <h4>Dash</h4>
+                </div>
+                <img
+                  src="./assets/images/slider-chart.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div class="card-body mt-4">
+                <div class="price-container-left">
+                  <p class="title">Price Now</p>
+                  <p class="price-value">USD 8,442.12</p>
+                </div>
+                <div class="price-container-right">
+                  <p class="title">Price Change (24h)</p>
+                  <p class="price-red-value">
+                    <img
+                      src="./assets/images/price-red-icon.svg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    2.43%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Get Ready Start -->
+    <section class="getready-container my-5 py-5">
+      <div class="container">
+        <h2 class="getready-title text-center">Get Ready for DexMarketCap</h2>
+        <p class="getready-description text-center">
+          Lorem ipsum dolor sit amet, consectetur<br />
+          adipiscing elit. Sed.
+        </p>
+
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img
+              src="./assets/images/responsive.png"
+              class="img-fluid"
+              alt=""
+            />
+            <h3 class="getready-card-title">Responsive</h3>
+            <p class="getready-card-description">
+              DexMarketCap works on any device: desktop, tablet or mobile.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img
+              src="./assets/images/subscriptions.png"
+              class="img-fluid"
+              alt=""
+            />
+            <h3 class="getready-card-title">Subsctiptions</h3>
+            <p class="getready-card-description">
+              Purchase via exchanges to enable DEXT subscriptions.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img
+              src="./assets/images/store-your-data.png"
+              class="img-fluid"
+              alt=""
+            />
+            <h3 class="getready-card-title">Store your data</h3>
+            <p class="getready-card-description">
+              Save your data and access it from any device.
+            </p>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img
+              src="./assets/images/notifications.png"
+              class="img-fluid"
+              alt=""
+            />
+            <h3 class="getready-card-title">Notifications</h3>
+            <p class="getready-card-description">
+              Set-up your live notifications.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img src="./assets/images/bots.png" class="img-fluid" alt="" />
+            <h3 class="getready-card-title">Bots</h3>
+            <p class="getready-card-description">
+              Create unique trading strategies for maximum profitability.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-center">
+            <img src="./assets/images/stats.png" class="img-fluid" alt="" />
+            <h3 class="getready-card-title">Stats</h3>
+            <p class="getready-card-description">
+              Check and watch real time the best DEFI Statistics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get Ready End -->
+
+    <!-- Feature 1 Coin Start -->
+    <section class="coin-container my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-10">
+            <div
+              class="
+                coin-header
+                d-flex
+                justify-content-start
+                align-items-center
+              "
+            >
+              <img
+                src="./assets/images/coin-dollar-symbol.png"
+                class="img-fluid currency-dollar"
+                alt=""
+              />
+
+              <h2 class="title">Coin</h2>
+            </div>
+            <h2 class="coin-subtitle mb-2">
+              Lorem Ipsum Dolor Sit Amet Adipscing Ipsum
+            </h2>
+            <p class="coin-description mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+              vivamus et tempus, nunc, urna felis, est feugiat blandit. Tortor
+              ullamcorper molestie lacus.
+            </p>
+            <button class="btn signup-btn learnmore-btn" type="submit">
+              Learn More
+              <img src="./assets/images/learnmore-arrow.svg" alt="" />
+            </button>
+          </div>
+
+          <div
+            class="
+              col-md-6 col-10
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <figure class="">
+              <img
+                src="./assets/images/Coin-right-image.png"
+                class="img-fluid"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature 1 Coin End -->
+
+    <!-- Feature 2 Tools Start -->
+    <section class="coin-container my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              col-md-6 col-10
+              d-flex
+              justify-content-start
+              align-items-center
+            "
+          >
+            <figure class="">
+              <img
+                src="./assets/images/tools-left-image.png"
+                class="img-fluid"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-sm-10 d-flex flex-column justify-content-center"
+          >
+            <div
+              class="
+                coin-header
+                d-flex
+                justify-content-start
+                align-items-center
+              "
+            >
+              <img
+                src="./assets/images/tools-symbol.svg"
+                class="img-fluid currency-dollar"
+                alt=""
+              />
+
+              <h2 class="title">Tools</h2>
+            </div>
+            <h2 class="coin-subtitle mb-2">
+              Lorem Ipsum Dolor Sit Amet Adipscing Ipsum
+            </h2>
+            <p class="coin-description mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+              vivamus et tempus, nunc, urna felis, est feugiat blandit. Tortor
+              ullamcorper molestie lacus.
+            </p>
+            <div>
+              <button class="btn signup-btn learnmore-btn" type="submit">
+                Learn More
+                <img src="./assets/images/learnmore-arrow.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature 2 Tools End -->
+
+    <!-- Buy Crypto Start -->
+    <section class="coin-container my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 col-sm-10 d-flex flex-column justify-content-center"
+          >
+            <div
+              class="
+                coin-header
+                d-flex
+                justify-content-start
+                align-items-center
+              "
+            >
+              <img
+                src="./assets/images/payment-title.svg"
+                class="img-fluid currency-dollar"
+                alt=""
+              />
+
+              <h2 class="title">Payment</h2>
+            </div>
+            <h2 class="coin-subtitle mb-2">
+              Lorem Ipsum Dolor Sit Amet Adipscing Ipsum
+            </h2>
+            <p class="coin-description mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+              vivamus et tempus, nunc, urna felis, est feugiat blandit. Tortor
+              ullamcorper molestie lacus.
+            </p>
+            <div>
+              <button class="btn signup-btn learnmore-btn" type="submit">
+                Learn More
+                <img src="./assets/images/learnmore-arrow.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="
+              col-md-6 col-10
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            <figure class="">
+              <img
+                src="./assets/images/payment-right-image.png"
+                class="img-fluid"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Buy Crypto End -->
+
+    <!-- Blue Section Start -->
+    <section class="blue-container my-5">
+      <div class="container blue-inner-container">
+        <div class="most-inner">
+          <h1 class="title">Ready to get started with DexMarketCap?</h1>
+          <img
+            src="./assets/images/Cryptocurrency-white.svg"
+            class="img-fluid blue-a"
+            alt=""
+          />
+          <img
+            src="./assets/images/Cryptocurrency-1.svg"
+            class="img-fluid blue-b"
+            alt=""
+          />
+          <img
+            src="./assets/images/Cryptocurrency-2.svg"
+            alt=""
+            class="img-fluid blue-c"
+          />
+          <img
+            src="./assets/images/Cryptocurrency-3.svg"
+            alt=""
+            class="img-fluid blue-d"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Blue Section End -->
+
+    <!-- Footer -->
+    <footer class="footer-container my-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <a class="footer-logo mb-3" href="/">
+              <img
+                src="./assets/images/logo.svg"
+                alt="logo-img"
+                class="logo-img"
+              />
+              DexMarketCap
+            </a>
+            <p class="footer-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
+              pulvinar sem ante feugiat suscipit aenean gravida quis tincidunt.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-12">
+            <div class="row">
+              <div class="col-4">
+                <ul class="footer-navlinks">
+                  <li class="features mb-3">Features</li>
+                  <li class="footer-navlink"><a href="#">About Us</a></li>
+                  <li class="footer-navlink"><a href="#">Pricing</a></li>
+                  <li class="footer-navlink">
+                    <a href="#">Account Information</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="footer-navlinks">
+                  <li class="features mb-3">Support</li>
+                  <li class="footer-navlink"><a href="#">Help Center</a></li>
+                  <li class="footer-navlink"><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="footer-navlinks">
+                  <li class="features mb-3">Follow us</li>
+                  <li class="footer-navlink"><a href="#">Instagram</a></li>
+                  <li class="footer-navlink"><a href="#">Facebook</a></li>
+                  <li class="footer-navlink">
+                    <a href="#">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="copyright-container">
+          <h6>© 2021 DexMarketCap. All rights reserved</h6>
+          <div class="copyright-right">
+            <a href="#" class="privacy-policy">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/buttons/2.1.1/js/dataTables.buttons.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
